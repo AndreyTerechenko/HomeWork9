@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Максимальная сумма трат за неделю составила " + maxSum + " рублей. " +
                 "\nМинимальная сумма трат за неделю составила " + minSum + " рублей.");
         // Task 3
-        double averageExpenses = sum / expenses.length;
+        double averageExpenses = (double) sum / expenses.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageExpenses + " рублей");
         // Task 4
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
